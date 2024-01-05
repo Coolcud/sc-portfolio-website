@@ -17,3 +17,11 @@ html {
 p {
     color: rgb(85, 85, 85);
 }
+
+/* TRANSITION (LINKS, BUTTONS) STYLING */
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
