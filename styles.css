@@ -151,6 +151,7 @@ a:hover {
 
 
 /* SECTION STYLING */
+
 img {
   border-radius: 20%;
 }
@@ -174,7 +175,7 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 8vh;
+  height: 80vh;
 }
 
 .section__pic-container {
@@ -212,4 +213,12 @@ section {
   justify-content: center;
   margin-top: 1rem;
   gap: 1rem;
+}
+
+
+/* ICONS STYLING*/
+
+.icon {
+  cursor: pointer;
+  height: 2rem;
 }
