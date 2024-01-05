@@ -1,6 +1,6 @@
 /* GENERAL STYLING*/
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -99,7 +99,7 @@ a:hover {
 .menu-links {
   position: absolute;
   top: 100%;
-  right: 0%;
+  right: 0;
   background-color: white;
   width: fit-content;
   max-height: 0;
@@ -281,8 +281,8 @@ img {
 
 .about-containers {
   gap: 2rem;
-  margin-top: 2rem;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about-details-container {
@@ -324,4 +324,44 @@ img {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+
+/* EXPERIENCE SECTION STYLING */
+
+#experience {
+  position: relative;
+}
+
+.experience-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
 }
