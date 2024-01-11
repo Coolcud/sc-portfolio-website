@@ -100,7 +100,7 @@ a:hover {
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: rgb(242, 242, 242);
   width: fit-content;
   max-height: 0;
   overflow: hidden;
@@ -345,6 +345,22 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.article-details-container {
+  padding: 1.5rem;
+  flex: 1;
+  background: linear-gradient(
+    to bottom,
+    rgb(201, 202, 202) 0%,
+    rgb(201, 202, 202) 4.65rem,
+    white 4.65rem,
+    white 100%
+  );
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .article-container {
